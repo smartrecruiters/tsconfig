@@ -1,0 +1,35 @@
+{
+  "name": "strict-tsconfig",
+  "version": "0.0.1",
+  "description": "it provides tsconfig with all strict rules",
+  "license": "MIT",
+  "main": "tsconfig.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartrecruiters/strict-tsconfig.git"
+  },
+  "keywords": [
+    "typescript",
+    "strict mode",
+    "strict",
+    "noImplicitAny",
+    "strictNullChecks"
+  ],
+  "author": {
+    "name": "Sergei Vakhrushev",
+    "email": "s.vakhrushev@smartrecruiters.com"
+  },
+  "contributors": [
+    {
+      "name": "Sergei Vakhrushev",
+      "email": "s.vakhrushev@smartrecruiters.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/smartrecruiters/strict-tsconfig/issues"
+  },
+  "homepage": "https://github.com/smartrecruiters/strict-tsconfig#readme",
+  "peerDependencies": {
+    "typescript": "4.0.x"
+  }
+}
