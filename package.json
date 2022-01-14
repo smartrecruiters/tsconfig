@@ -1,6 +1,6 @@
 {
   "name": "@tsconfig/strict",
-  "version": "0.0.1",
+  "version": "4.0.0",
   "description": "it provides tsconfig with all strict rules",
   "license": "MIT",
   "main": "tsconfig.json",
