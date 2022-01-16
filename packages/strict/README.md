@@ -1,20 +1,19 @@
-# strict-tsconfig
-Usually it's told that for enabling strict mode for TS just `"strict": true` should be added in `tsconfig.json` of your project. Actually it's not fully truth, there are much many additional options and with this package you don't have to check which options should be enabled for absolutely strict mode. SmartRecruiters’ tsconfig enables all strict rules and keeps your project type-safety. 
+# tsconfig/strict
+Usually it's told that for enabling strict mode for TS just `"strict": true` should be added in `tsconfig.json` of your project. Actually it's not fully truth, there are much many additional options and with this package you don't have to check which options should be enabled for absolutely strict mode. SmartRecruiters’ tsconfig enables all strict rules and keeps your project type-safety.
 
 ## Installation
 
-There are just two simple steps.
+There are just two simple steps for starting using strict mode.
 
 **Step 1**. Install an appropriate version on the package, it's really simple version of the package should be the same as your TS version without patch version
 
-| TS version | Package version |
-|------------|:----------------|
-| 4.0        | 4.0             |
-| 4.1        | 4.1             |
-| 4.2        | 4.2             |
-| 4.3        | 4.3             |
-| 4.4        | 4.4             |
-| 4.5        | 4.5             |
+| Package version | TS version |
+|-----------------|:-----------|
+| 4.0             | 4.0        |
+| 4.1             | 4.1        |
+| 4.2             | 4.2        |
+| 4.3             | 4.3        |
+| 4.4             | \>=4.4     |
 
 ```
 npm i -D git+https://github.com/smartrecruiters/strict-tsconfig.git

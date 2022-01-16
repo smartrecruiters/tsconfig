@@ -1,13 +1,8 @@
 {
-  "name": "@tsconfig/strict",
-  "version": "4.0.0",
+  "name": "tsconfig",
+  "version": "1.0.0",
   "description": "it provides tsconfig with all strict rules",
   "license": "MIT",
-  "main": "tsconfig.json",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/smartrecruiters/strict-tsconfig.git"
-  },
   "keywords": [
     "typescript",
     "strict mode",
@@ -28,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/smartrecruiters/strict-tsconfig/issues"
   },
-  "homepage": "https://github.com/smartrecruiters/strict-tsconfig#readme",
-  "peerDependencies": {
-    "typescript": "4.0.x"
-  }
+  "homepage": "https://github.com/smartrecruiters/strict-tsconfig#readme"
 }
