@@ -35,5 +35,8 @@
   ],
   "peerDependencies": {
     "angular": "11.0.x"
+  },
+  "devDependencies": {
+    "tsconfig": "git+https://github.com/smartrecruiters/tsconfig.git"
   }
 }
