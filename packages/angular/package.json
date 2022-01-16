@@ -1,22 +1,25 @@
 {
-  "name": "@tsconfig/strict",
-  "version": "4.0.0",
+  "name": "@tsconfig/strict-angular",
+  "version": "11.0.0",
   "description": "it provides tsconfig with all strict rules",
   "license": "MIT",
   "main": "tsconfig.json",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smartrecruiters/tsconfig.git/packages/strict"
+    "url": "git+https://github.com/smartrecruiters/tsconfig.git"
   },
   "scripts": {
   },
   "keywords": [
+    "angular",
     "typescript",
     "tsconfig",
     "strict",
     "strict mode",
     "noImplicitAny",
-    "strictNullChecks"
+    "strictNullChecks",
+    "strictTemplates",
+    "fullTemplateTypeCheck"
   ],
   "author": {
     "name": "Sergei Vakhrushev",
@@ -33,6 +36,6 @@
   },
   "homepage": "https://github.com/smartrecruiters/tsconfig#readme",
   "peerDependencies": {
-    "typescript": "4.0.x"
+    "angular": "11.0.x"
   }
 }
