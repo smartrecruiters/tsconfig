@@ -5,7 +5,7 @@ Usually it's told that for enabling strict mode for TS just `"strict": true` sho
 
 Choose a needed project:
 
-- [TypeScript](packages/strict)
+- [TypeScript](packages/_strict)
 
 
 ## License

@@ -1,15 +1,10 @@
 {
   "name": "@tsconfig/strict-angular",
   "version": "11.0.0",
-  "description": "it provides tsconfig with all strict rules",
+  "description": "it provides tsconfig with all strict rules for Angular projects",
+  "homepage": "https://github.com/smartrecruiters/tsconfig/packages/angular-strict#readme",
   "license": "MIT",
   "main": "tsconfig.json",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/smartrecruiters/tsconfig.git"
-  },
-  "scripts": {
-  },
   "keywords": [
     "angular",
     "typescript",
@@ -21,6 +16,13 @@
     "strictTemplates",
     "fullTemplateTypeCheck"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartrecruiters/strict-tsconfig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smartrecruiters/strict-tsconfig/issues"
+  },
   "author": {
     "name": "Sergei Vakhrushev",
     "email": "s.vakhrushev@smartrecruiters.com"
@@ -31,10 +33,6 @@
       "email": "s.vakhrushev@smartrecruiters.com"
     }
   ],
-  "bugs": {
-    "url": "https://github.com/smartrecruiters/tsconfig/issues"
-  },
-  "homepage": "https://github.com/smartrecruiters/tsconfig#readme",
   "peerDependencies": {
     "angular": "11.0.x"
   }

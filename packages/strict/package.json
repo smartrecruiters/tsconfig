@@ -2,14 +2,9 @@
   "name": "@tsconfig/strict",
   "version": "4.0.0",
   "description": "it provides tsconfig with all strict rules",
+  "homepage": "https://github.com/smartrecruiters/tsconfig/packages/strict#readme",
   "license": "MIT",
   "main": "tsconfig.json",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/smartrecruiters/tsconfig.git/packages/strict"
-  },
-  "scripts": {
-  },
   "keywords": [
     "typescript",
     "tsconfig",
@@ -18,9 +13,12 @@
     "noImplicitAny",
     "strictNullChecks"
   ],
-  "author": {
-    "name": "Sergei Vakhrushev",
-    "email": "s.vakhrushev@smartrecruiters.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartrecruiters/strict-tsconfig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smartrecruiters/strict-tsconfig/issues"
   },
   "contributors": [
     {
@@ -28,10 +26,6 @@
       "email": "s.vakhrushev@smartrecruiters.com"
     }
   ],
-  "bugs": {
-    "url": "https://github.com/smartrecruiters/tsconfig/issues"
-  },
-  "homepage": "https://github.com/smartrecruiters/tsconfig#readme",
   "peerDependencies": {
     "typescript": "4.0.x"
   }
