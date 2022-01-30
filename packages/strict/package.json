@@ -1,5 +1,5 @@
 {
-  "name": "@tsconfig/strict",
+  "name": "@smartrecruiters/tsconfig-strict",
   "version": "4.0.0",
   "description": "it provides tsconfig with all strict rules",
   "homepage": "https://github.com/smartrecruiters/tsconfig/packages/strict#readme",
@@ -19,6 +19,10 @@
   },
   "bugs": {
     "url": "https://github.com/smartrecruiters/strict-tsconfig/issues"
+  },
+  "author": {
+    "name": "Sergei Vakhrushev",
+    "email": "s.vakhrushev@smartrecruiters.com"
   },
   "contributors": [
     {
