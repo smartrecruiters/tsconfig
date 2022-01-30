@@ -1,4 +1,4 @@
-# tsconfig/strict-angular
+# @smartrecruiters/tsconfig-strict-angular
 Usually it's told that for enabling strict mode for TS just `"strict": true` should be added in `tsconfig.json` of your project. Actually it's not fully truth, there are much many additional options and with this package you don't have to check which options should be enabled for absolutely strict mode. Our tsconfig enables all strict rules and keeps your project type-safety.
 
 For typescript projects, please, use [config for TypeScript](https://www.npmjs.com/package/@smartrecruiters/tsconfig-strict)
