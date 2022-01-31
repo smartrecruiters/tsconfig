@@ -36,7 +36,7 @@
   "peerDependencies": {
     "angular": "10.1.x"
   },
-  "devDependencies": {
+  "dependencies": {
     "@smartrecruiters/tsconfig-strict": "4.0.x"
   }
 }
