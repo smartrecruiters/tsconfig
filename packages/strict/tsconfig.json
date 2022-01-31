@@ -4,6 +4,7 @@
         "allowUnreachableCode": false,
         "allowUnusedLabels": false,
         "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
         "noImplicitReturns": true,
         "noPropertyAccessFromIndexSignature": true,
         "noUncheckedIndexedAccess": true,
