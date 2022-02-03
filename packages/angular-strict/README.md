@@ -7,7 +7,7 @@ For typescript projects, please, use [config for TypeScript](https://www.npmjs.c
 
 There are just two simple steps for starting using strict mode.
 
-**Step 1**. Install an appropriate version on the package, it's really simple - the version of the package should be the same as your Angular version without patch version
+**Step 1**. Install an appropriate version of the package, it's really simple - the version of the package should be the same as your Angular version without patch version
 
 | Package version | Angular version |
 |-----------------|:----------------|
@@ -22,6 +22,7 @@ There are just two simple steps for starting using strict mode.
 | 13.0.x          | 13.0.x          |
 | 13.1.x          | 13.1.x          |
 | 13.2.x          | ≥ 13.2          |
+
 
 ```
 npm i -D @smartrecruiters/tsconfig-strict-angular@{version}
