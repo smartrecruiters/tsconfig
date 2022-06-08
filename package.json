@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "it provides tsconfig with all strict rules",
   "license": "MIT",
+  "scripts": {
+    "publish:ts": "npm publish packages/strict",
+    "publish:angular": "npm publish packages/angular-strict"
+  },
   "keywords": [
     "typescript",
     "strict mode",
