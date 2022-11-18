@@ -4,8 +4,8 @@
   "description": "it provides tsconfig with all strict rules",
   "license": "MIT",
   "scripts": {
-    "publish:ts": "npm publish packages/strict",
-    "publish:angular": "npm publish packages/angular-strict"
+    "publish:ts": "cd packages/strict && npm publish",
+    "publish:angular": "cd packages/angular-strict && npm publish"
   },
   "keywords": [
     "typescript",
