@@ -21,6 +21,7 @@ There are just two simple steps for starting using strict mode.
 | 4.6.x           | 4.6.x      |
 | 4.7.x           | 4.7.x      |
 | 4.8.x           | 4.8.x      |
+| 4.9.x           | 4.9.x      |
 
 ```
 npm i -D @smartrecruiters/tsconfig-strict@{version}
