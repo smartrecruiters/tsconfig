@@ -1,6 +1,6 @@
 {
   "name": "@smartrecruiters/tsconfig-strict",
-  "version": "4.9.2",
+  "version": "4.9.3",
   "description": "it provides tsconfig with all strict rules",
   "homepage": "https://github.com/smartrecruiters/tsconfig/tree/main/packages/strict#readme",
   "license": "MIT",
