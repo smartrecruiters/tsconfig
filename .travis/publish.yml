@@ -1,4 +1,7 @@
 script:
-- git remote set-url origin https://${GH_ACCESS_TOKEN}@github.com/smartrecruiters/tsconfig
+- npm config set registry https://registry.npmjs.org
+- npm config set //registry.npmjs.org/:_authToken ${NPM_API_TOKEN}
 - git checkout main
-- lerna publish patch --no-private --yes --registry https://registry.npmjs.org/:_authToken=${NPM_API_TOKEN}
+- lerna publish patch --no-private --yes --no-push
+- git remote set-url origin https://${GH_ACCESS_TOKEN}@github.com/bigcreate/getting-started-example.git
+- git push --follow-tags --no-verify origin main

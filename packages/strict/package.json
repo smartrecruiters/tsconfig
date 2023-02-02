@@ -18,7 +18,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smartrecruiters/strict-tsconfig.git"
+    "url": "git+https://github.com/smartrecruiters/strict-tsconfig.git",
+    "directory": "packages/strict"
   },
   "bugs": {
     "url": "https://github.com/smartrecruiters/strict-tsconfig/issues"
