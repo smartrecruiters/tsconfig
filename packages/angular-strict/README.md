@@ -30,6 +30,7 @@ There are just two simple steps for starting using strict mode.
 | 15.0.x          | 15.0.x          |
 | 15.1.x          | >= 15.1.x       |
 
+
 ```
 npm i -D @smartrecruiters/tsconfig-strict-angular@{version}
 ```
