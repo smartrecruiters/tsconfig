@@ -7,7 +7,7 @@
 
   const mainVersion = process.env.npm_package_version.match(regexVersion)?.[0] ?? null;
 
-  const dependency = packageJson.dependencies[dependencyName];
+  const dependency = packageJson.peerDependencies[dependencyName];
   const dependencyVersion = dependency.match(regexVersion)?.[0] ?? null;
 
   if (mainVersion !== dependencyVersion) {
