@@ -1,2 +1,2 @@
 script:
-- lerna publish patch --no-private
+- lerna run verify
