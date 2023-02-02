@@ -1,3 +1,4 @@
 script:
+- gh auth login --with-token ${GH_ACCESS_TOKEN}
 - git checkout main
 - lerna publish patch --no-private --yes --registry https://registry.npmjs.org/:_authToken=${NPM_API_TOKEN}
