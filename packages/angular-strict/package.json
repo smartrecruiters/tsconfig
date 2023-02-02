@@ -5,6 +5,9 @@
   "homepage": "https://github.com/smartrecruiters/tsconfig/tree/main/packages/angular-strict#readme",
   "license": "MIT",
   "main": "tsconfig.json",
+  "scripts": {
+    "verify": "node ../../scripts/verify-version.js @angular/core"
+  },
   "keywords": [
     "angular",
     "typescript",

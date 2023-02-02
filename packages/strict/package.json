@@ -13,6 +13,9 @@
     "noImplicitAny",
     "strictNullChecks"
   ],
+  "scripts": {
+    "verify": "node ../../scripts/verify-version.js typescript"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/smartrecruiters/strict-tsconfig.git"

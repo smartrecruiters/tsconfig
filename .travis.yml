@@ -1,0 +1,25 @@
+branches:
+  only:
+  - prelerna
+
+import:
+- source: .travis/publish.yml
+  if: type = push
+- source: .travis/verification.yml
+  if: type = pull_request
+
+# Set the language Travis CI should expect.
+language: node_js
+
+# Set the Node.js version you’d like Travis to use. Add more versions as you like.
+node_js:
+- 16
+
+# Cache all npm dependencies so Travis CI only installs dependencies once.
+# For multiple builds, caching all npm dependencies enables your builds to run faster.
+cache: npm
+
+# Configure the build cycles to tell Travis CI to install all dependencies.
+# You can also add other dependencies you like Travis to install globally.
+install: # Hook provided by Travis CI
+- npm install

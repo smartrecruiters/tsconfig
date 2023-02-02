@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "it provides tsconfig with all strict rules",
   "license": "MIT",
-  "scripts": {
-    "publish:ts": "cd packages/strict && npm publish",
-    "publish:angular": "cd packages/angular-strict && npm publish"
-  },
   "keywords": [
     "typescript",
     "strict mode",
@@ -29,6 +25,6 @@
   },
   "homepage": "https://github.com/smartrecruiters/tsconfig#readme",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "6.4.1"
   }
 }

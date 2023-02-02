@@ -1,0 +1,2 @@
+script:
+- lerna run verify
