@@ -1,6 +1,6 @@
 branches:
   only:
-  - prelerna
+  - main
 
 import:
 - source: .travis/publish.yml
