@@ -1,5 +1,5 @@
 script:
-- git remote add origin https://${GH_ACCESS_TOKEN}@github.com/smartrecruiters/tsconfig
+- git remote set-url origin https://${GH_ACCESS_TOKEN}@github.com/smartrecruiters/tsconfig
 - git checkout main
 - lerna publish patch --no-private --yes --registry https://registry.npmjs.org/:_authToken=${NPM_API_TOKEN}
 - lerna run verify
