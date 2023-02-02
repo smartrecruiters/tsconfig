@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "it provides tsconfig with all strict rules",
   "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "keywords": [
     "typescript",
     "strict mode",
