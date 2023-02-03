@@ -19,9 +19,9 @@ There are just two simple steps for starting using strict mode.
 | 14.0.x          | 14.0.x          |
 | 13.3.x          | 13.3.x          |
 | 13.2.x          | 13.2.x          |
-| 12.2.x          | 12.2.x          |
 | 13.1.x          | 13.1.x          |
 | 13.0.x          | 13.0.x          |
+| 12.2.x          | 12.2.x          |
 | 12.1.x          | 12.1.x          |
 | 12.0.x          | 12.0.x          |
 | 11.2.x          | 11.2.x          |
