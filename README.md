@@ -10,7 +10,7 @@ Choose a needed project:
 
 ## Contribution
 
-### Updating major/minor vertions
+### Updating major/minor versions
 1. update `peerDependencies`
 1. add new verson in the readme
 1. make other necesary changes
