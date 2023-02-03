@@ -8,18 +8,23 @@ Choose a needed project:
 - [TypeScript](packages/strict/README.md)
 - [Angular](packages/angular-strict/README.md)
 
-## How to update
+## Contribution
 
-1. create a branch with a proper name or checkout on existing one with the proper name
-   - TypeScript: `strict-{major version of TS}.{minor version of TS}.x`
-   - Angular: `angular-{major version of Angular}.{minor version of Angular}.x`
-2. update `peerDependencies`
-3. set proper version for a package. The same version as `TS`/`Angular` apart from patch version. Patch version should be `0` or increased from previous version 
-4. push updates
-5. create and push a tag with the same name as the branch or update an existing tag 
-6. publish the new version on `nmp`
-   - TypeScript: `npm run publish:ts`
-   - Angular: `npm run publish:angular`
+### Updating major/minor vertions
+1. update `peerDependencies`
+1. add new verson in the readme
+1. make other necesary changes
+1. set proper version for a package. The same version as `TS`/`Angular` apart from patch version. Patch version should be `0`
+1. create PR
+1. after getting aprouval you can merge it
+1. all tags will be created automatically
+
+### Patching
+1. make necesary change
+1. create PR
+1. after getting aprouval you can merge it
+1. patch version will be bumped automatically
+1. all tags will be created automatically
 
 ## License
 
