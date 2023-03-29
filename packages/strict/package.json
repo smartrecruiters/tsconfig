@@ -1,6 +1,6 @@
 {
   "name": "@smartrecruiters/tsconfig-strict",
-  "version": "4.9.8",
+  "version": "5.0.0",
   "description": "it provides tsconfig with all strict rules",
   "homepage": "https://github.com/smartrecruiters/tsconfig/tree/main/packages/strict#readme",
   "license": "MIT",
@@ -35,6 +35,6 @@
     }
   ],
   "peerDependencies": {
-    "typescript": "4.9.x"
+    "typescript": "5.0.x"
   }
 }
