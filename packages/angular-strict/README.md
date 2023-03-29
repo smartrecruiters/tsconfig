@@ -12,7 +12,7 @@ There are just two simple steps for starting using strict mode.
 
 | Package version | Angular version |
 | --------------- | :-------------- |
-| 15.1.x          | >= 15.1.x       |
+| 15.1.x          | 15.1.x          |
 | 15.0.x          | 15.0.x          |
 | 14.2.x          | 14.2.x          |
 | 14.1.x          | 14.1.x          |
