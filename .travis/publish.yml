@@ -3,6 +3,6 @@ script:
 - npm config set //registry.npmjs.org/:_authToken ${NPM_API_TOKEN}
 - git checkout main
 - git add .
-- git commit -m "update" 
+- git commit -m "update" || echo 'There is probably nothing to commit.'
 - git remote set-url origin https://${GH_ACCESS_TOKEN}@github.com/smartrecruiters/tsconfig.git
 - lerna publish patch
