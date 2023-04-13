@@ -1,9 +1,9 @@
 # strict-tsconfig
-Usually it's told that for enabling strict mode for TS just `"strict": true` should be added in `tsconfig.json` of your project. Actually it's not fully truth, there are much many additional options and with this package you don't have to check which options should be enabled for absolutely strict mode. SmartRecruiters’ tsconfig enables all strict rules and keeps your project type-safety.
+It is said that to enable strict mode for TypeScript, only `"strict": true` should be added in your project's `tsconfig.json` file. Actually it is not the full truth, there are many more useful additional options and this package enables all of them for an absolute strict mode. SmartRecruiters’ tsconfig contains all strict rules and improves your project type-safety.
 
 ## How to use
 
-Choose a needed project:
+Choose Readme for your project:
 
 - [TypeScript](packages/strict/README.md)
 - [Angular](packages/angular-strict/README.md)
@@ -11,20 +11,20 @@ Choose a needed project:
 ## Contribution
 
 ### Updating major/minor versions
-1. update `peerDependencies`
-1. add new verson in the readme
-1. make other necesary changes
-1. set proper version for a package. The same version as `TS`/`Angular` apart from patch version. Patch version should be `0`
-1. create PR
-1. after getting aprouval you can merge it
-1. all tags will be created automatically
+1. Update `peerDependencies`.
+1. Add new version to the readme.
+1. Make other necessary changes.
+1. Set proper version for a package. The same version as `TS`/`Angular` apart from patch version. Patch version should be `0`
+1. Create PR
+1. After the PR is approved, feel free to merge it.
+1. All tags will be created automatically.
 
 ### Patching
-1. make necesary change
-1. create PR
-1. after getting aprouval you can merge it
-1. patch version will be bumped automatically
-1. all tags will be created automatically
+1. Make necessary change.
+1. Create PR
+1. After the PR is approved, feel free to merge it.
+1. Patch version will be bumped automatically.
+1. All tags will be created automatically
 
 ## License
 
