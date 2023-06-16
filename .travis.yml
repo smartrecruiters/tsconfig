@@ -13,7 +13,7 @@ language: node_js
 
 # Set the Node.js version you’d like Travis to use. Add more versions as you like.
 node_js:
-- 18
+- 16
 
 # Cache all npm dependencies so Travis CI only installs dependencies once.
 # For multiple builds, caching all npm dependencies enables your builds to run faster.
