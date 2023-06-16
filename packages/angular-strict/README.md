@@ -16,6 +16,7 @@ There are just two simple steps for starting using strict mode.
 | 15.2.x          | 15.2.x          |
 | 15.1.x          | 15.1.x          |
 | 15.0.x          | 15.0.x          |
+| 14.3.x          | 14.3.x          |
 | 14.2.x          | 14.2.x          |
 | 14.1.x          | 14.1.x          |
 | 14.0.x          | 14.0.x          |
