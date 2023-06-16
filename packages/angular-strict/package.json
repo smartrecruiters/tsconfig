@@ -1,6 +1,6 @@
 {
   "name": "@smartrecruiters/tsconfig-strict-angular",
-  "version": "14.3.1",
+  "version": "16.1.0",
   "description": "it provides tsconfig with all strict rules for Angular projects",
   "homepage": "https://github.com/smartrecruiters/tsconfig/tree/main/packages/angular-strict#readme",
   "license": "MIT",
@@ -38,10 +38,10 @@
     }
   ],
   "peerDependencies": {
-    "@angular/common": "14.3.x",
-    "@angular/core": "14.3.x"
+    "@angular/common": "16.1.x",
+    "@angular/core": "16.1.x"
   },
   "dependencies": {
-    "@smartrecruiters/tsconfig-strict": "4.8.x"
+    "@smartrecruiters/tsconfig-strict": "5.1.x"
   }
 }
