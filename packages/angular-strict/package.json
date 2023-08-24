@@ -38,8 +38,8 @@
     }
   ],
   "peerDependencies": {
-    "@angular/common": "16.1.x",
-    "@angular/core": "16.1.x"
+    "@angular/common": "16.2.x",
+    "@angular/core": "16.2.x"
   },
   "dependencies": {
     "@smartrecruiters/tsconfig-strict": "5.1.x"

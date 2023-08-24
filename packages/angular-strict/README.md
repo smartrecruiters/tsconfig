@@ -12,6 +12,7 @@ There are just two simple steps for starting using strict mode.
 
 | Package version | Angular version |
 | --------------- | :-------------- |
+| 16.2.x          | 16.2.x          |
 | 16.1.x          | 16.1.x          |
 | 16.0.x          | 16.0.x          |
 | 15.2.x          | 15.2.x          |
@@ -34,7 +35,6 @@ There are just two simple steps for starting using strict mode.
 | 11.0.x          | 11.0.x          |
 | 10.2.x          | 10.2.x          |
 | 10.1.x          | 10.1.x          |
-
 
 ```
 npm i -D @smartrecruiters/tsconfig-strict-angular@{version}
