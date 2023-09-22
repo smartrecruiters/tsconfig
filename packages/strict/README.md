@@ -12,6 +12,7 @@ There are just two simple steps for starting using strict mode.
 
 | Package version | TS version |
 | --------------- | :--------- |
+| 5.2.x           | 5.2.x      |
 | 5.1.x           | 5.1.x      |
 | 5.0.x           | 5.0.x      |
 | 4.9.x           | 4.9.x      |
@@ -24,7 +25,6 @@ There are just two simple steps for starting using strict mode.
 | 4.2.x           | 4.2.x      |
 | 4.1.x           | 4.1.x      |
 | 4.0.x           | 4.0.x      |
-
 
 ```
 npm i -D @smartrecruiters/tsconfig-strict@{version}
