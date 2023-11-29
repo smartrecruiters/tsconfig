@@ -12,6 +12,7 @@ There are just two simple steps for starting using strict mode.
 
 | Package version | TS version |
 | --------------- | :--------- |
+| 5.3.x           | 5.3.x      |
 | 5.2.x           | 5.2.x      |
 | 5.1.x           | 5.1.x      |
 | 5.0.x           | 5.0.x      |
