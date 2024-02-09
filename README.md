@@ -8,6 +8,9 @@ Choose Readme for your project:
 - [TypeScript](packages/strict/README.md)
 - [Angular](packages/angular-strict/README.md)
 
+## Guide for Migration
+[strict TypeScript: guide](https://docs.google.com/document/d/1mHXk3GMv54rUilGApKXQblyJGMZ9MGNvYUlK3YvuNsw/edit?usp=sharing)
+
 ## Contribution
 
 ### Updating major/minor versions
