@@ -46,6 +46,9 @@ Just add `"extends": "@smartrecruiters/tsconfig-strict/tsconfig.json",` in your 
 }
 ```
 
+## Guide for Migration
+[strict TypeScript: guide](https://docs.google.com/document/d/1mHXk3GMv54rUilGApKXQblyJGMZ9MGNvYUlK3YvuNsw/edit?usp=sharing)
+
 ## License
 
 [MIT](LICENSE)
