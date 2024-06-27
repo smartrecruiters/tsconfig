@@ -11,7 +11,8 @@ There are just two simple steps for starting using strict mode.
 **Step 1**. Install an appropriate version of the package, it's really simple - the version of the package should be the same as your TS version without patch version
 
 | Package version | TS version |
-| --------------- | :--------- |
+|-----------------|:-----------|
+| 5.5.x           | 5.5.x      |
 | 5.4.x           | 5.4.x      |
 | 5.3.x           | 5.3.x      |
 | 5.2.x           | 5.2.x      |
