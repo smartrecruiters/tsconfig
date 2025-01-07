@@ -7,6 +7,6 @@
         "strictStandalone": true,
         "extendedDiagnostics": {
             "defaultCategory": "error"
-        },
+        }
     }
 }
