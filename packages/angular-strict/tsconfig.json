@@ -3,6 +3,9 @@
     "angularCompilerOptions": {
         "strictInjectionParameters": true,
         "strictTemplates": true,
-        "strictInputAccessModifiers": true
+        "strictInputAccessModifiers": true,
+        "extendedDiagnostics": {
+            "defaultCategory": "error"
+        }
     }
 }
