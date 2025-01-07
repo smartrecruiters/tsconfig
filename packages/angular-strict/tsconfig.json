@@ -4,8 +4,9 @@
         "strictInjectionParameters": true,
         "strictTemplates": true,
         "strictInputAccessModifiers": true,
+        "strictStandalone": true,
         "extendedDiagnostics": {
             "defaultCategory": "error"
-        }
+        },
     }
 }
