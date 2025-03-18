@@ -12,6 +12,7 @@ There are just two simple steps for starting using strict mode.
 
 | Package version | Angular version |
 | --------------- | :-------------- |
+| 19.2.x          | 19.2.x          |
 | 19.1.x          | 19.1.x          |
 | 19.0.x          | 19.0.x          |
 | 18.2.x          | 18.2.x          |
@@ -53,11 +54,11 @@ When Angular in your project wil be updated don't forget to update the package a
 
 **Step 2**. Configure typescript in your project:
 
-Just add `"extends": "@smartrecruiters/tsconfig-strict-angular/tsconfig.json",` in your main `tsconfig` file. It's also possible to override any rule that the package provides by default, for example
+Just add `"extends": "@smartrecruiters/tsconfig-strict-angular",` in your main `tsconfig` file. It's also possible to override any rule that the package provides by default, for example
 
 ```json
 {
-  "extends": "@smartrecruiters/tsconfig-strict-angular/tsconfig.json",
+  "extends": "@smartrecruiters/tsconfig-strict-angular",
   "compilerOptions": {
     "allowUnusedLabels": false
   }
