@@ -12,6 +12,7 @@ There are just two simple steps for starting using strict mode.
 
 | Package version | Angular version |
 | --------------- | :-------------- |
+| 20.0.x          | 20.0.x          |
 | 19.2.x          | 19.2.x          |
 | 19.1.x          | 19.1.x          |
 | 19.0.x          | 19.0.x          |
